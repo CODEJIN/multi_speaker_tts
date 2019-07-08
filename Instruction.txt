@@ -1,0 +1,52 @@
+1. Speaker embedding
+
+1.1 Generate pattern
+python -m Speaker_Embedding.Pattern_Generate [options]
+
+option list:
+-vctk <path>		Set the path of VCTK. VCTK's patterns are generated.
+-ls <path>		Set the path of LibriSpeech. LibriSpeech's patterns are generated.
+-vox1 <path>		Set the path of VoxCeleb1. VoxCeleb1's patterns are generated.
+-vox2 <path>		Set the path of VoxCeleb2. VoxCeleb2's patterns are generated.
+
+1.2 Set inference files path while training for verification
+Edit 'Speaker_Embedding_Inference_in_Train.txt'
+
+1.3 Run
+python -m Speaker_Embedding.Speaker_Embedding
+
+
+2. Mel to spectrogram
+
+2.1 Generate pattern
+python -m Taco1_Mel_to_Spect.Pattern_Generate [options]
+
+option list:
+-vctk <path>		Set the path of VCTK. VCTK's patterns are generated.
+-ls <path>		Set the path of LibriSpeech. LibriSpeech's patterns are generated.
+
+2.2 Set inference files path while training for verification
+Edit 'Mel_to_Spect_Inference_in_Train.txt'
+
+2.3 Run
+python -m Taco1_Mel_to_Spect.Taco1_Mel_to_Spect
+
+
+3. Multi speaker TTS
+
+3.1 Generate pattern
+python Pattern_Generate.py [options]
+
+option list:
+-lj <path>		Set the path of LJSpeech. LJSpeech's patterns are generated.
+-vctk <path>		Set the path of VCTK. VCTK's patterns are generated.
+-ls <path>		Set the path of LibriSpeech. LibriSpeech's patterns are generated.
+-tl <path>		Set the path of Tedlium. Tedlium's patterns are generated.
+-timit <path>		Set the path of TIMIT. TIMIT's patterns are generated.
+-all		All save option. Generator ignore the 'Use_Wav_Length_Range' hyper parameter. If this option is not set, only patterns matching 'Use_Wav_Length_Range' will be generated.
+
+3.2 Set inference files path while training for verification
+Edit 'Inference_Sentence_in_Train.txt'
+
+3.3 Run
+python MSTTS_SV.py

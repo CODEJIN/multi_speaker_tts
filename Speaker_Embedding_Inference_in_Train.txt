@@ -1,0 +1,654 @@
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0000.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0001.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0002.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0003.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0004.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0005.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0006.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0007.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0008.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0009.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0010.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0011.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0012.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0013.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0014.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0015.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0016.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0017.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0018.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0019.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0020.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0021.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0022.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0023.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0024.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0025.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0026.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0027.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0028.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0029.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0030.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0031.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0032.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0033.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0034.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0035.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0036.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134686/1089-134686-0037.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0000.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0001.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0002.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0003.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0004.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0005.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0006.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0007.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0008.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0009.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0010.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0011.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0012.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0013.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0014.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0015.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0016.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0017.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0018.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0019.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0020.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0021.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0022.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0023.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0024.flac
+LS-Peter Bobbe	E:/LibriSpeech/test-clean/1089/134691/1089-134691-0025.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0000.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0001.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0002.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0003.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0004.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0005.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0006.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0007.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0008.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0009.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0010.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0011.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0012.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0013.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0014.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0015.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0016.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0017.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0018.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0019.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0020.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0021.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0022.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0023.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0024.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0025.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0026.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0027.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0028.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0029.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0030.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0031.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0032.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0033.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0034.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0035.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0036.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0037.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0038.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0039.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0040.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0041.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0042.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0043.flac
+LS-Duncan Murrell	E:/LibriSpeech/test-clean/1188/133604/1188-133604-0044.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/121726/121-121726-0000.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/121726/121-121726-0001.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/121726/121-121726-0002.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/121726/121-121726-0003.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/121726/121-121726-0004.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/121726/121-121726-0005.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/121726/121-121726-0006.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/121726/121-121726-0007.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/121726/121-121726-0008.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/121726/121-121726-0009.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/121726/121-121726-0010.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/121726/121-121726-0011.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/121726/121-121726-0012.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/121726/121-121726-0013.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/121726/121-121726-0014.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/123852/121-123852-0000.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/123852/121-123852-0001.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/123852/121-123852-0002.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/123852/121-123852-0003.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/123852/121-123852-0004.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/123859/121-123859-0000.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/123859/121-123859-0001.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/123859/121-123859-0002.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/123859/121-123859-0003.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/123859/121-123859-0004.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0000.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0001.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0002.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0003.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0004.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0005.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0006.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0007.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0008.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0009.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0010.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0011.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0012.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0013.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0014.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0015.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0016.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0017.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0018.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0019.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0020.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0021.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0022.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0023.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0024.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0025.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0026.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0027.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0028.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0029.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0030.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0031.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0032.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0033.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0034.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0035.flac
+LS-Nikolle Doolin	E:/LibriSpeech/test-clean/121/127105/121-127105-0036.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135766/1221-135766-0000.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135766/1221-135766-0001.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135766/1221-135766-0002.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135766/1221-135766-0003.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135766/1221-135766-0004.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135766/1221-135766-0005.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135766/1221-135766-0006.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135766/1221-135766-0007.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135766/1221-135766-0008.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135766/1221-135766-0009.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135766/1221-135766-0010.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135766/1221-135766-0011.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135766/1221-135766-0012.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135766/1221-135766-0013.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135766/1221-135766-0014.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135766/1221-135766-0015.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0000.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0001.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0002.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0003.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0004.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0005.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0006.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0007.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0008.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0009.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0010.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0011.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0012.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0013.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0014.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0015.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0016.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0017.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0018.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0019.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0020.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0021.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0022.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0023.flac
+LS-Dianne	E:/LibriSpeech/test-clean/1221/135767/1221-135767-0024.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0000.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0001.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0002.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0003.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0004.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0005.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0006.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0007.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0008.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0009.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0010.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0011.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0012.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0013.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0014.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0015.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0016.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0017.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0018.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0019.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0020.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0021.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0022.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0023.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0024.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0025.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0026.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0027.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0028.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0029.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0030.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0031.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1180/1284-1180-0032.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0000.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0001.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0002.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0003.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0004.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0005.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0006.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0007.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0008.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0009.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0010.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0011.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0012.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0013.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0014.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0015.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0016.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0017.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0018.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0019.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0020.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/1181/1284-1181-0021.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/134647/1284-134647-0000.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/134647/1284-134647-0001.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/134647/1284-134647-0002.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/134647/1284-134647-0003.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/134647/1284-134647-0004.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/134647/1284-134647-0005.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/134647/1284-134647-0006.flac
+LS-Daniel Anaya	E:/LibriSpeech/test-clean/1284/134647/1284-134647-0007.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122612/1320-122612-0000.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122612/1320-122612-0001.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122612/1320-122612-0002.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122612/1320-122612-0003.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122612/1320-122612-0004.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122612/1320-122612-0005.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122612/1320-122612-0006.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122612/1320-122612-0007.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122612/1320-122612-0008.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122612/1320-122612-0009.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122612/1320-122612-0010.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122612/1320-122612-0011.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122612/1320-122612-0012.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122612/1320-122612-0013.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122612/1320-122612-0014.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122612/1320-122612-0015.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122612/1320-122612-0016.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0000.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0001.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0002.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0003.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0004.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0005.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0006.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0007.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0008.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0009.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0010.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0011.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0012.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0013.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0014.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0015.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0016.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0017.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0018.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0019.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0020.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0021.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0022.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0023.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0024.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0025.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0026.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0027.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0028.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0029.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0030.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0031.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0032.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0033.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0034.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0035.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0036.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0037.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0038.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0039.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0040.flac
+LS-number6	E:/LibriSpeech/test-clean/1320/122617/1320-122617-0041.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0000.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0001.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0002.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0003.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0004.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0005.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0006.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0007.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0008.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0009.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0010.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0011.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0012.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0013.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0014.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0015.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0016.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0017.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0018.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0019.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0020.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0021.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0022.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0023.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0024.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0025.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0026.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0027.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0028.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0029.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0030.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0031.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0032.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0033.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0034.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0035.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0036.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0037.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0038.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0039.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0040.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0041.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0042.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0043.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0044.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0045.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0046.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0047.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0048.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0049.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0050.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0051.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0052.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141083/1580-141083-0053.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0000.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0001.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0002.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0003.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0004.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0005.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0006.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0007.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0008.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0009.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0010.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0011.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0012.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0013.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0014.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0015.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0016.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0017.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0018.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0019.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0020.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0021.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0022.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0023.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0024.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0025.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0026.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0027.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0028.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0029.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0030.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0031.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0032.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0033.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0034.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0035.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0036.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0037.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0038.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0039.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0040.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0041.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0042.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0043.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0044.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0045.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0046.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0047.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0048.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0049.flac
+LS-TinyPines	E:/LibriSpeech/test-clean/1580/141084/1580-141084-0050.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0000.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0001.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0002.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0003.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0004.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0005.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0006.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0007.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0008.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0009.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0010.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0011.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0012.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0013.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0014.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0015.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0016.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0017.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0018.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0019.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0020.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0021.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0022.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0023.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0024.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0025.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1826/1995-1826-0026.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1836/1995-1836-0000.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1836/1995-1836-0001.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1836/1995-1836-0002.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1836/1995-1836-0003.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1836/1995-1836-0004.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1836/1995-1836-0005.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1836/1995-1836-0006.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1836/1995-1836-0007.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1836/1995-1836-0008.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1836/1995-1836-0009.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1836/1995-1836-0010.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1836/1995-1836-0011.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1836/1995-1836-0012.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1836/1995-1836-0013.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1836/1995-1836-0014.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0000.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0001.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0002.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0003.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0004.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0005.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0006.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0007.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0008.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0009.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0010.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0011.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0012.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0013.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0014.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0015.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0016.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0017.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0018.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0019.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0020.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0021.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0022.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0023.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0024.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0025.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0026.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0027.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0028.flac
+LS-AJai Hilton	E:/LibriSpeech/test-clean/1995/1837/1995-1837-0029.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0000.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0001.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0002.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0003.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0004.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0005.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0006.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0007.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0008.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0009.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0010.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0011.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0012.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0013.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0014.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0015.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0016.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0017.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0018.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0019.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0020.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0021.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0022.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0023.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0024.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0025.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0026.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0027.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0028.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0029.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0030.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0031.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0032.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0033.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0034.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0035.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0036.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0037.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0038.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0039.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0040.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0041.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0042.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0043.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0044.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0045.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0046.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0047.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0048.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0049.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0050.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0051.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0052.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0053.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0054.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0055.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0056.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0057.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0058.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0059.flac
+LS-amycsj	E:/LibriSpeech/test-clean/2094/142345/2094-142345-0060.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0000.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0001.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0002.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0003.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0004.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0005.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0006.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0007.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0008.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0009.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0010.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0011.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0012.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0013.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0014.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0015.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0016.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0017.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0018.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0019.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0020.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0021.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0022.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0023.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0024.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0025.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0026.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0027.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0028.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0029.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0030.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0031.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0032.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0033.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0034.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0035.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0036.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0037.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0038.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0039.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0040.flac
+LS-Mitchell L Leopard	E:/LibriSpeech/test-clean/2300/131720/2300-131720-0041.flac
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ045-0160.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ026-0079.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ031-0016.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ017-0233.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ017-0082.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ005-0287.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ050-0008.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ013-0245.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ020-0075.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ036-0009.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ030-0061.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ042-0077.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ037-0223.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ033-0029.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ032-0120.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ035-0042.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ043-0154.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ042-0136.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ012-0186.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ041-0024.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ036-0172.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ045-0121.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ006-0090.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ004-0118.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ029-0003.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ001-0094.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ001-0108.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ025-0033.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ021-0048.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ042-0049.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ034-0079.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ049-0095.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ008-0097.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ047-0246.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ038-0255.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ018-0256.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ014-0280.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ003-0162.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ038-0210.wav
+LJSpeech	E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ044-0106.wav

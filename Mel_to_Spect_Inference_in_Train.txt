@@ -1,0 +1,2 @@
+E:/LJSpeech-1.1/wavs/LJ050-0277.wav
+E:/LibriSpeech/test-clean/5683/32866/5683-32866-0021.flac

@@ -1,0 +1,5 @@
+E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ040-0143.wav	He that has no shame has no conscience.
+E:/Multi_Speaker_TTS.Raw_Data/LibriSpeech/train/17/363/17-363-0039.flac	Who knows much believes the less.
+E:/Multi_Speaker_TTS.Raw_Data/VCTK/wav48/p314/p314_020.wav	Things are always at their best in the beginning.
+E:/Multi_Speaker_TTS.Raw_Data/VCTK/wav48/p256/p256_001.wav	Please call Stella.
+D:/Work_and_Study/Ingu.wav	His voice is tested now.
