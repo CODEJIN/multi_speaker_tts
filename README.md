@@ -132,7 +132,7 @@ __※Two lists should have same length.__
 
 ![GS_131000 IDX_4](https://user-images.githubusercontent.com/17133841/60827472-48bfee80-a17e-11e9-9759-98769ce8668e.PNG)
 
-[WAV.zip](https://github.com/CODEJIN/multi_speaker_tts/files/3369390/WAV.zip)
+Exported wav files: [WAV.zip](https://github.com/CODEJIN/multi_speaker_tts/files/3369390/WAV.zip)
 
 # Trained checkpoint
     https://drive.google.com/drive/folders/1wXrJY-gQTOs9yZ7nxvxPaAa6Wf8uF7zP?usp=sharing
