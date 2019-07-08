@@ -134,5 +134,8 @@ __※Two lists should have same length.__
 
 [WAV.zip](https://github.com/CODEJIN/multi_speaker_tts/files/3369390/WAV.zip)
 
+# Trained checkpoint
+    https://drive.google.com/drive/folders/1wXrJY-gQTOs9yZ7nxvxPaAa6Wf8uF7zP?usp=sharing
+
 # Future works
 Training __Waveglow__ for Vocoder Change
