@@ -6,10 +6,13 @@ Multispeaker Text-To-Speech Synthesis', __except 'WAVENET'__. The algorithm is b
     Wang, Y., Skerry-Ryan, R. J., Stanton, D., Wu, Y., Weiss, R. J., Jaitly, N., ... & Le, Q. (2017). Tacotron: Towards end-to-end speech synthesis. arXiv preprint arXiv:1703.10135.
     Wan, L., Wang, Q., Papir, A., & Moreno, I. L. (2017). Generalized end-to-end loss for speaker verification. arXiv preprint arXiv:1710.10467.
     Jia, Y., Zhang, Y., Weiss, R. J., Wang, Q., Shen, J., Ren, F., ... & Wu, Y. (2018). Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech Synthesis. arXiv preprint arXiv:1806.04558.
+    Prenger, R., Valle, R., & Catanzaro, B. (2019, May). Waveglow: A flow-based generative network for speech synthesis. In ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 3617-3621). IEEE.
     
 # Structrue
-![Structure](https://user-images.githubusercontent.com/17133841/60824607-e49a2c00-a177-11e9-90ea-fb617167871c.png)
-The model is divided into three parts that are learned independently of each other: speaker embedding, tacotron 2, and vocoder. Of these, the vocoder is currently using the same structure as Tacotron 1, and may be replaced by Wavenet or Waveglow in the future.
+![MSTTS_Structure](https://user-images.githubusercontent.com/17133841/61982904-3b9f5e00-afcc-11e9-9cba-24ceb6d07bd7.png)
+
+The model is divided into three parts that are learned independently of each other: speaker embedding, tacotron 2, and vocoder. Of these, there are two types of vocoder can be attached: the Tacotron 1 style and Waveglow.
+
 
 # Used dataset
 Currently uploaded code is compatible with the following datasets. The O mark to the left of the dataset name is the dataset actually used in the uploaded result.
@@ -22,6 +25,10 @@ Currently uploaded code is compatible with the following datasets. The O mark to
 ## Mel to Spectrogram
     [O] VCTK: https://datashare.is.ed.ac.uk/handle/10283/2651
     [O] LibriSpeech: http://www.robots.ox.ac.uk/~vgg/data/voxceleb/
+    
+## Waveglow
+    [O] VCTK: https://datashare.is.ed.ac.uk/handle/10283/2651
+    Any voice wav files can be used.
     
 ## Multi speaker TTS
     [X] LJSpeech: https://keithito.com/LJ-Speech-Dataset/
@@ -61,10 +68,19 @@ Before proceeding, please set the pattern, inference, and checkpoint paths in 'H
     -ls <path>		Set the path of LibriSpeech. LibriSpeech's patterns are generated.
 
 #### Set inference files path while training for verification. Edit 'Mel_to_Spect_Inference_in_Train.txt'
-    
+
 #### Run
     python -m Taco1_Mel_to_Spect.Taco1_Mel_to_Spect
-    
+
+### Waveglow
+
+There is no pattern generate step. Waveglow use wav file directly as patterns.
+
+#### Set inference files path while training for verification. Edit 'WaveGlow_Inference_File_Path_in_Train.txt'
+
+#### Run
+    python -m WaveGlow.WaveGlow
+
 ### Multi speaker TTS
 
 #### Generate pattern
@@ -121,16 +137,15 @@ __※Two lists should have same length.__
 ## Mel to spectrogram
 ![GS_12000 IDX_1](https://user-images.githubusercontent.com/17133841/60827448-3ba2ff80-a17e-11e9-97c5-e13f205ebab0.PNG)
 
+## Waveglow
+![GS_915000 IDX_0](https://user-images.githubusercontent.com/17133841/61983359-0dbb1900-afce-11e9-965f-9c482d92c793.PNG)
+
+__Currently, the performance of Waveglow was not good.__
+
+
 ## Multi speaker TTS
-![GS_131000 IDX_0](https://user-images.githubusercontent.com/17133841/60827468-48275800-a17e-11e9-8fb8-8dc05c3248bf.PNG)
-
-![GS_131000 IDX_1](https://user-images.githubusercontent.com/17133841/60827469-48bfee80-a17e-11e9-920e-a6931dd6cc10.PNG)
-
-![GS_131000 IDX_2](https://user-images.githubusercontent.com/17133841/60827470-48bfee80-a17e-11e9-96c2-868335fcb31c.PNG)
-
-![GS_131000 IDX_3](https://user-images.githubusercontent.com/17133841/60827471-48bfee80-a17e-11e9-8eaa-c9479e2c3e3b.PNG)
-
-![GS_131000 IDX_4](https://user-images.githubusercontent.com/17133841/60827472-48bfee80-a17e-11e9-9759-98769ce8668e.PNG)
+<img src='https://user-images.githubusercontent.com/17133841/60827468-48275800-a17e-11e9-8fb8-8dc05c3248bf.PNG' width=50% height=50% /><img src='https://user-images.githubusercontent.com/17133841/60827469-48bfee80-a17e-11e9-920e-a6931dd6cc10.PNG' width=50% height=50% />
+<img src='https://user-images.githubusercontent.com/17133841/60827470-48bfee80-a17e-11e9-96c2-868335fcb31c.PNG' width=50% height=50% /><img src='https://user-images.githubusercontent.com/17133841/60827471-48bfee80-a17e-11e9-8eaa-c9479e2c3e3b.PNG' width=50% height=50% />
 
 Exported wav files: [WAV.zip](https://github.com/CODEJIN/multi_speaker_tts/files/3369390/WAV.zip)
 
@@ -138,4 +153,4 @@ Exported wav files: [WAV.zip](https://github.com/CODEJIN/multi_speaker_tts/files
     https://drive.google.com/drive/folders/1wXrJY-gQTOs9yZ7nxvxPaAa6Wf8uF7zP?usp=sharing
 
 # Future works
-Training __Waveglow__ for Vocoder Change
+Waveglow performance improvment
