@@ -1,0 +1,4 @@
+E:/Multi_Speaker_TTS.Raw_Data/LJSpeech/wavs/LJ050-0277.wav
+E:/Multi_Speaker_TTS.Raw_Data/LibriSpeech/train/2060/150855/2060-150855-0020.flac
+E:/Multi_Speaker_TTS.Raw_Data/TIMIT/TEST/DR7/MERS0/SX299.wav
+E:/Multi_Speaker_TTS.Raw_Data/VCTK/wav48/p256/p256_001.wav

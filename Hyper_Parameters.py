@@ -161,7 +161,80 @@ Taco1_Mel_to_Spect = tf.contrib.training.HParams(**{
         }),
     'Griffin_Lim_Iteration': 100,
     'Checkpoint_Path': 'E:/Taco1_Mel_to_Spect/Checkpoint',
+    'Train': tf.contrib.training.HParams(**{
+        'Pattern_Path': 'F:/Taco1_Mel_to_Spect.Data/',
+        'Metadata_File': 'METADATA.PICKLE',
+        'Batch_Size': 128,
+        'Pattern_Sorting_by_Length': True,
+        'Max_Mel_Length': 1000,
+        'Max_Pattern_Queue': 20,
+        'Learning_Rate': tf.contrib.training.HParams(**{
+            'Initial': 1e-3,
+            'Min': 1e-5,
+            'Decay_Start_Step': 50000,
+            'Decay_Step': 100,
+            'Decay_Rate': 0.5,
+            }),
+        'Weight_Regularization_Rate': 1e-6,
+        'ADAM': tf.contrib.training.HParams(**{
+            'Beta1': 0.9,
+            'Beta2': 0.999,
+            'Epsilon': 1e-6,
+            }),
+        'Inference_Timing': 1000,
+        'Checkpoint_Save_Timing': 1000,
+        'Inference': tf.contrib.training.HParams(**{
+            'Path': 'E:/Taco1_Mel_to_Spect',
+            'Batch_Size': 128,
+            })
+        })
     })
 
-Inference_Path = 'E:/MSTTS_SV.NoPre.VCTK.TIMIT'
-Checkpoint_Path = 'E:/MSTTS_SV.NoPre.VCTK.TIMIT/Checkpoint'
+#'Upsample.Strides' has some relation with Export_Sample_Rate. Take care.
+#The best is 'NOT CHANGING.'
+WaveGlow = tf.contrib.training.HParams(**{
+    'Flows': 12,
+    'Groups': 8,
+    'Early_Every': 4,
+    'Early_Size': 2,
+    'Upsample': tf.contrib.training.HParams(**{
+        'Kernel_Size': 1024,
+        'Strides': 256  #This is related exported wav quality. 256 is approximate value for 22050Hz.
+        }),
+    'WaveNet': tf.contrib.training.HParams(**{
+        'Layers': 8,
+        'Channels': 512,
+        'Kernel_Size': 3,
+        }),
+    'Export_Sample_Rate': 22050,
+    'Checkpoint_Path': 'E:/MSTTS_SV_for_WaveGlow_Server/Checkpoint',
+    'Train': tf.contrib.training.HParams(**{
+        'Pattern_Path': 'E:/Multi_Speaker_TTS.Raw_Data/VCTK/wav48',
+        'Max_Signal_Length': Sound.Sample_Rate // 2,
+        'Batch_Size': 4,
+        'Max_Pattern_Queue': 20,
+        'Learning_Rate': tf.contrib.training.HParams(**{
+            'Initial': 1e-3,
+            'Min': 1e-5,
+            'Decay_Step': 100000,
+            'Decay_Rate': 0.5,
+            }),
+        'ADAM': tf.contrib.training.HParams(**{
+            'Beta1': 0.9,
+            'Beta2': 0.999,
+            'Epsilon': 1e-8,
+            }),
+        'Inference_Timing': 1000,
+        'Checkpoint_Save_Timing': 1000
+        }),
+    'Inference': tf.contrib.training.HParams(**{
+        'Path': 'E:/WaveGlow',
+        'Mel_Split_Length': 40,
+        'Batch_Size': 4,
+        })
+    })
+
+Use_Vocoder = 'Taco1_Mel_to_Spect'    #'WaveGlow' or 'Taco1_Mel_to_Spect'
+#Inference_Path = 'E:/MSTTS_SV.NoPre.VCTK.TIMIT'
+Inference_Path = 'E:/MSTTS_SV'
+Checkpoint_Path = 'E:/MSTTS_SV.NoPre.VCTK.TIMIT.L1Use/Checkpoint'

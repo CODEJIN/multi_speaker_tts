@@ -14,6 +14,7 @@ import Modules, Feeder;
 import Hyper_Parameters as hp;
 #import Tacotron1_Modules;
 from Taco1_Mel_to_Spect import Modules as Tacotron1_Modules
+from WaveGlow import Modules as WaveGlow_Modules
 from Speaker_Embedding import Modules as Speaker_Embedding_Modules
 
 class Tacotron2:
@@ -31,7 +32,8 @@ class Tacotron2:
                 v for v in tf.all_variables()
                 if not (
                     v.name.startswith('speaker_embedding') or
-                    v.name.startswith('mel_to_spectrogram')                    
+                    v.name.startswith('mel_to_spectrogram') or                   
+                    v.name.startswith('waveglow')
                     )
                 ],
             max_to_keep= 5,
@@ -95,21 +97,32 @@ class Tacotron2:
             postnet_Tensor = final_Outputs.linear + postnet_Tensor
             attention_History = tf.transpose(final_State.alignment_history.stack(), perm=[1,2,0])
             
-        with tf.variable_scope('mel_to_spectrogram'):
-            spectrogram_Tensor = Tacotron1_Modules.ConvBank(
-                inputs= postnet_Tensor,
-                is_training= placeholder_Dict['Is_Training']
-                )
-            spectrogram_Tensor = Tacotron1_Modules.Highway(
-                inputs= spectrogram_Tensor
-                )
-            spectrogram_Tensor = Tacotron1_Modules.BiRNN(
-                inputs= spectrogram_Tensor,
-                is_training= placeholder_Dict['Is_Training']
-                )
-            spectrogram_Tensor = Tacotron1_Modules.Projection(
-                inputs= spectrogram_Tensor
-                )
+        if hp.Use_Vocoder.upper() == 'Taco1_Mel_to_Spect'.upper():
+            with tf.variable_scope('mel_to_spectrogram'):
+                spectrogram_Tensor = Tacotron1_Modules.ConvBank(
+                    inputs= postnet_Tensor,
+                    is_training= placeholder_Dict['Is_Training']
+                    )
+                spectrogram_Tensor = Tacotron1_Modules.Highway(
+                    inputs= spectrogram_Tensor
+                    )
+                spectrogram_Tensor = Tacotron1_Modules.BiRNN(
+                    inputs= spectrogram_Tensor,
+                    is_training= placeholder_Dict['Is_Training']
+                    )
+                spectrogram_Tensor = Tacotron1_Modules.Projection(
+                    inputs= spectrogram_Tensor
+                    )
+
+        elif hp.Use_Vocoder.upper() == 'WaveGlow'.upper():
+            #입력된 text에서 바로 wav까지 처리하고자 한다면 'placeholder_Dict['Mel']'을 'WaveGlow_Modules.Reshaped_Mel(postnet_Tensor)'로 변경하면 됩니다. 하지만 메모리문제로 본 코드는 이 부분은 따로 처리합니다.
+            #If you want to process from input text directly to wav, you can change 'placeholder_Dict['Mel']' to 'WaveGlow_Modules.Reshaped_Mel(postnet_Tensor)'. However, due to memory issues, this code handles this part separately.
+
+            with tf.variable_scope('waveglow') as scope:                
+                waveglow_Audio_Tensor, waveglow_Mel_Tensor = WaveGlow_Modules.Restructure_Inference_Data(
+                    mels= placeholder_Dict["Mel"]   #WaveGlow_Modules.Reshaped_Mel(postnet_Tensor)
+                    )
+                waveglow_Audio_Tensor = WaveGlow_Modules.Glow_Inference(waveglow_Audio_Tensor, waveglow_Mel_Tensor)                
 
         if self.is_Training:
             with tf.variable_scope('loss'):
@@ -140,7 +153,8 @@ class Tacotron2:
                         'weight_w' in variable.name.lower() or
                         'projection' in variable.name.lower() or
                         variable.name.startswith('speaker_embedding') or
-                        variable.name.startswith('mel_to_spectrogram')
+                        variable.name.startswith('mel_to_spectrogram') or
+                        variable.name.startswith('waveglow')
                         )
                     ])
             
@@ -170,7 +184,8 @@ class Tacotron2:
                             v for v in tf.get_collection(tf.GraphKeys.TRAINABLE_VARIABLES)
                             if not (
                                 v.name.startswith('speaker_embedding') or
-                                v.name.startswith('mel_to_spectrogram')
+                                v.name.startswith('mel_to_spectrogram') or
+                                v.name.startswith('waveglow')
                                 )
                             ]
                         )
@@ -192,9 +207,16 @@ class Tacotron2:
             'Linear': final_Outputs.linear,
             'Mel': postnet_Tensor,
             'Stop': tf.sigmoid(tf.squeeze(final_Outputs.stop, axis=2)),
-            'Attention_History': attention_History,
-            'Spectrogram': spectrogram_Tensor
+            'Attention_History': attention_History
             }
+
+        if hp.Use_Vocoder.upper() == 'Taco1_Mel_to_Spect'.upper():
+            self.inference_Tensor_Dict.update({
+                'Spectrogram': spectrogram_Tensor
+                })
+
+        elif hp.Use_Vocoder.upper() == 'WaveGlow'.upper():
+            self.wav_Tensor = waveglow_Audio_Tensor
 
         self.tf_Session.run(tf.global_variables_initializer());
 
@@ -206,9 +228,14 @@ class Tacotron2:
         speaker_Embedding_Saver.restore(self.tf_Session, latest_Checkpoint);
         print('Speaker embedding checkpoint \'{}\' is loaded.'.format(latest_Checkpoint));
 
-    def Vocoder_Load(self):        
-        Vocoder_Saver = tf.train.Saver(var_list= [v for v in tf.all_variables() if v.name.startswith('mel_to_spectrogram')])
-        latest_Checkpoint = tf.train.latest_checkpoint(hp.Taco1_Mel_to_Spect.Checkpoint_Path)
+    def Vocoder_Load(self):
+        if hp.Use_Vocoder.upper() == 'Taco1_Mel_to_Spect'.upper():
+            Vocoder_Saver = tf.train.Saver(var_list= [v for v in tf.all_variables() if v.name.startswith('mel_to_spectrogram')])
+            latest_Checkpoint = tf.train.latest_checkpoint(hp.Taco1_Mel_to_Spect.Checkpoint_Path)
+        elif hp.Use_Vocoder.upper() == 'WaveGlow'.upper():
+            Vocoder_Saver = tf.train.Saver(var_list= [v for v in tf.all_variables() if v.name.startswith('waveglow')])
+            latest_Checkpoint = tf.train.latest_checkpoint(hp.WaveGlow.Checkpoint_Path)
+        
         if latest_Checkpoint is None:
             raise ValueError('There is no vocoder checkpoint!')
         Vocoder_Saver.restore(self.tf_Session, latest_Checkpoint);
@@ -232,8 +259,12 @@ class Tacotron2:
                     embedding_Path, sentence = line.strip().split('\t');
                     speaker_Wav_Path_List.append(embedding_Path)
                     sentence_List.append(sentence)
-            self.Inference(speaker_Wav_Path_List, sentence_List)
 
+            if hp.Use_Vocoder.upper() == 'Taco1_Mel_to_Spect'.upper():
+                self.Inference_Mel_to_Spectrogram(speaker_Wav_Path_List, sentence_List)
+            elif hp.Use_Vocoder.upper() == 'WaveGlow'.upper():
+                self.Inference_WaveGlow(speaker_Wav_Path_List, sentence_List)
+            
         Run_Inference();
 
         current_Global_Step = self.tf_Session.run(tf.train.get_or_create_global_step())
@@ -264,7 +295,7 @@ class Tacotron2:
 
             current_Global_Step = result_Dict['Global_Step']
 
-    def Inference(self, path_List, text_List, file_Prefix= None):
+    def Inference_Mel_to_Spectrogram(self, path_List, text_List, file_Prefix= None):
         os.makedirs(os.path.join(hp.Inference_Path, 'WAV').replace("\\", "/"), exist_ok= True);
         os.makedirs(os.path.join(hp.Inference_Path, 'PLOT').replace("\\", "/"), exist_ok= True);
 
@@ -274,7 +305,7 @@ class Tacotron2:
             )
 
         export_Inference_Thread = Thread(
-            target= self.Export_Inference,
+            target= self.Export_Inference_Mel_to_Spectrogram,
             args= [
                 text_List,
                 list(result_Dict['Linear']),
@@ -282,13 +313,79 @@ class Tacotron2:
                 list(result_Dict['Spectrogram']),
                 list(result_Dict['Attention_History']),
                 list(result_Dict['Stop']),
-                'GS_{}'.format(result_Dict['Global_Step']) if file_Prefix is None else file_Prefix
+                file_Prefix or 'GS_{}'.format(result_Dict['Global_Step'])
                 ]
             )
         export_Inference_Thread.daemon = True;
         export_Inference_Thread.start();
 
-    def Export_Inference(self, text_List, linear_List, mel_List, spectrogram_List, attention_History_List, stop_List, file_Prefix='Inference'):
+    def Inference_WaveGlow(self, path_List, text_List, file_Prefix= None):
+        os.makedirs(os.path.join(hp.Inference_Path, 'WAV').replace("\\", "/"), exist_ok= True);
+        os.makedirs(os.path.join(hp.Inference_Path, 'PLOT').replace("\\", "/"), exist_ok= True);
+
+        result_Dict = self.tf_Session.run(
+            fetches= self.inference_Tensor_Dict,
+            feed_dict= self.feeder.Get_Inference_Pattern(path_List, text_List)
+            )
+        
+        mel_List = []
+        mel_Index_List = []
+        for mel in result_Dict['Mel']:
+            split_Mel_List = [
+                mel[x:x+hp.WaveGlow.Inference.Mel_Split_Length]
+                for x in range(0, mel.shape[0], hp.WaveGlow.Inference.Mel_Split_Length)
+                ]
+            mel_List.extend(split_Mel_List)
+
+            start_Index = 0 if len(mel_Index_List) == 0 else mel_Index_List[-1][1]
+            mel_Index_List.append((start_Index, start_Index + len(split_Mel_List)))
+
+        pattern_Count = len(mel_List)
+        max_Mel_Length = max([mel.shape[0] for mel in mel_List])
+
+        new_Mel_Pattern = np.zeros(
+            shape=(pattern_Count, max_Mel_Length, hp.Sound.Mel_Dim),
+            dtype= np.float32
+            )
+        for pattern_Index, mel in enumerate(mel_List):
+            new_Mel_Pattern[pattern_Index, :mel.shape[0]] = mel;
+
+        wav_List = []
+        for batch_Start_Index in range(0, pattern_Count, hp.WaveGlow.Inference.Batch_Size):
+            wav_List.append(self.tf_Session.run(
+                self.wav_Tensor,
+                {self.feeder.placeholder_Dict['Mel']: new_Mel_Pattern[batch_Start_Index:batch_Start_Index + hp.WaveGlow.Inference.Batch_Size]}
+                ))
+
+        result_Wav = np.zeros(
+            shape= [                
+                sum([wav.shape[0] for wav in wav_List]),
+                max([wav.shape[1] for wav in wav_List])
+                ],
+            dtype= np.float32
+            )
+        current_Index = 0;
+        for wav in wav_List:
+            result_Wav[current_Index:current_Index + wav.shape[0], :wav.shape[1]] = wav
+            current_Index += wav.shape[0]
+        result_Dict['Wav'] = [np.reshape(result_Wav[start_Index:end_Index], [-1]) for start_Index, end_Index in mel_Index_List]
+
+        export_Inference_Thread = Thread(
+            target= self.Export_Inference_WaveGlow,
+            args= [
+                text_List,
+                list(result_Dict['Linear']),
+                list(result_Dict['Mel']),                
+                list(result_Dict['Attention_History']),
+                list(result_Dict['Stop']),
+                list(result_Dict['Wav']),
+                file_Prefix or 'GS_{}'.format(result_Dict['Global_Step'])
+                ]
+            )
+        export_Inference_Thread.daemon = True;
+        export_Inference_Thread.start();
+
+    def Export_Inference_Mel_to_Spectrogram(self, text_List, linear_List, mel_List, spectrogram_List, attention_History_List, stop_List, file_Prefix='Inference'):
         for index, (text, linear, mel, spectrogram, attention_History, stop) in enumerate(zip(text_List, linear_List, mel_List, spectrogram_List, attention_History_List, stop_List)):
             file_Name = '{}.IDX_{}'.format(file_Prefix, index)
 
@@ -346,6 +443,60 @@ class Tacotron2:
                 )
             plt.close(new_Figure);
         
+    def Export_Inference_WaveGlow(self, text_List, linear_List, mel_List, attention_History_List, stop_List, wav_List, file_Prefix='Inference'):
+        for index, (text, linear, mel, wav, attention_History, stop) in enumerate(zip(text_List, linear_List, mel_List, wav_List, attention_History_List, stop_List)):
+            file_Name = '{}.IDX_{}'.format(file_Prefix, index)
+
+            slice_Index = np.argmax(stop > 0.5) if any(stop > 0.5) else stop.shape[0]
+            linear = linear[:slice_Index]
+            mel = mel[:slice_Index]
+            stop = stop[:slice_Index]
+            attention_History = attention_History[:len(text) + 2, :slice_Index]
+            wav = wav[:int(slice_Index * hp.Sound.Frame_Shift / 1000 * hp.WaveGlow.Export_Sample_Rate)] 
+
+            try:                
+                librosa.output.write_wav(
+                    path= os.path.join(hp.Inference_Path, 'WAV', '{}.WAV'.format(file_Name)).replace("\\", "/"),
+                    y= wav,
+                    sr=hp.WaveGlow.Export_Sample_Rate
+                    )
+            except Exception as e:
+                print('Wav exporting failed: {}'.format(e))
+
+            new_Figure = plt.figure(figsize=(16, 24), dpi=100);
+            plt.subplot(5,1,1);
+            plt.imshow(np.transpose(linear), aspect='auto', origin='lower')
+            plt.title('Text: {}    Linear'.format(text))
+            plt.colorbar()
+            plt.subplot(5,1,2);
+            plt.imshow(np.transpose(mel), aspect='auto', origin='lower')
+            plt.title('Text: {}    Mel(Postnet)'.format(text))
+            plt.colorbar()
+            plt.subplot(5,1,3);            
+            plt.imshow(np.transpose(attention_History), aspect='auto', origin='lower')
+            plt.title('Text: {}    Attention history'.format(text))
+            plt.xticks(
+                range(attention_History.shape[0]),
+                ['<S>'] + list(text) + ['<E>'],
+                fontsize = 10
+                )
+            plt.colorbar()
+            plt.subplot(5,1,4);
+            plt.plot(stop)
+            plt.title('Text: {}    Stop flow'.format(text))
+            plt.xlim(0, stop.shape[0])
+            plt.colorbar()
+            plt.subplot(5,1,5);
+            plt.plot(wav)
+            plt.title('Text: {}    Wav'.format(text))
+            plt.colorbar()
+            plt.tight_layout()
+            plt.savefig(
+                os.path.join(hp.Inference_Path, 'PLOT', '{}.PNG'.format(file_Name)).replace("\\", "/"),
+                #bbox_inches='tight'
+                )
+            plt.close(new_Figure);
+
 if __name__ == '__main__':
     new_Tacotron2 = Tacotron2(is_Training= True)
     new_Tacotron2.Restore()
