@@ -41,6 +41,7 @@ def Encoder_Conv(inputs, is_training = False):
             new_Tensor = tf.layers.dropout(
                 new_Tensor,
                 rate= hp.Encoder.Conv.Dropout_Rate,
+                training= is_training
                 )
 
     return new_Tensor;
@@ -136,6 +137,7 @@ def Decoder_Conv(inputs, is_training = False):
             new_Tensor = tf.layers.dropout(
                 new_Tensor,
                 rate= hp.Encoder.Conv.Dropout_Rate,
+                training= is_training
                 )
 
     return new_Tensor;
