@@ -260,10 +260,7 @@ class Tacotron2:
                     speaker_Wav_Path_List.append(embedding_Path)
                     sentence_List.append(sentence)
 
-            if hp.Use_Vocoder.upper() == 'Taco1_Mel_to_Spect'.upper():
-                self.Inference_Mel_to_Spectrogram(speaker_Wav_Path_List, sentence_List)
-            elif hp.Use_Vocoder.upper() == 'WaveGlow'.upper():
-                self.Inference_WaveGlow(speaker_Wav_Path_List, sentence_List)
+            self.Inference(speaker_Wav_Path_List, sentence_List)
             
         Run_Inference();
 
@@ -294,6 +291,12 @@ class Tacotron2:
                 Run_Inference();
 
             current_Global_Step = result_Dict['Global_Step']
+
+    def Inference(self, path_List, text_List, file_Prefix= None):
+        if hp.Use_Vocoder.upper() == 'Taco1_Mel_to_Spect'.upper():
+            self.Inference_Mel_to_Spectrogram(path_List, text_List, file_Prefix)
+        elif hp.Use_Vocoder.upper() == 'WaveGlow'.upper():
+            self.Inference_WaveGlow(path_List, text_List, file_Prefix)
 
     def Inference_Mel_to_Spectrogram(self, path_List, text_List, file_Prefix= None):
         os.makedirs(os.path.join(hp.Inference_Path, 'WAV').replace("\\", "/"), exist_ok= True);
