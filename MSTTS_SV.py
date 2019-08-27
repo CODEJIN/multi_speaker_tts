@@ -269,7 +269,7 @@ class Tacotron2:
             start_Time = time.time();
             result_Dict = self.tf_Session.run(
                 fetches= self.train_Tensor_Dict,
-                feed_dict= self.feeder.Get_Train_Pattern(is_Pre_Train= current_Global_Step < hp.Train.Pre_Step)
+                feed_dict= self.feeder.Get_Train_Pattern(is_Pre_Train= (hp.Train.Use_Pre_in_Main_Train and current_Global_Step < hp.Train.Pre_Step))
                 )
 
             display_List = [

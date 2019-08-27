@@ -75,7 +75,7 @@ Train = tf.contrib.training.HParams(**{
     'Learning_Rate': tf.contrib.training.HParams(**{
         'Initial': 1e-3,
         'Min': 1e-5,
-        'Decay_Start_Step': 0,#9000,
+        'Decay_Start_Step': 0,
         'Decay_Step': 10000,
         'Decay_Rate': 0.5,
         }),
@@ -85,7 +85,7 @@ Train = tf.contrib.training.HParams(**{
         'Beta2': 0.999,
         'Epsilon': 1e-6,
         }),
-    'Use_L1_Loss': False,
+    'Use_L1_Loss': True,
     'Inference_Timing': 1000,
     'Checkpoint_Save_Timing': 1000
     })
@@ -124,7 +124,7 @@ Speaker_Embedding = tf.contrib.training.HParams(**{
             'Beta2': 0.999,
             'Epsilon': 1e-8,
             }),
-        'Inference_Path': 'E:/Speaker_Embedding',
+        'Inference_Path': 'E:/MSTTS_Checkpoints/Speaker_Embedding_Checkpoint',
         'Inference_Timing': 1000,
         'Checkpoint_Save_Timing': 1000
         })
@@ -150,6 +150,7 @@ Taco1_Mel_to_Spect = tf.contrib.training.HParams(**{
             'Stride': 1,
             'Channel': 80,
             }),
+        'Dropout_Rate': 0.5,
         }),
     'Highway': tf.contrib.training.HParams(**{
         'Nums': 4
@@ -160,9 +161,9 @@ Taco1_Mel_to_Spect = tf.contrib.training.HParams(**{
         'Zoneout_Rate': 0.1
         }),
     'Griffin_Lim_Iteration': 100,
-    'Checkpoint_Path': 'E:/Taco1_Mel_to_Spect/Checkpoint',
+    'Checkpoint_Path': 'E:/MSTTS_Checkpoints/Mel_to_Spect_Checkpoint',#'E:/Taco1_MtoS.Dropout/Checkpoint',
     'Train': tf.contrib.training.HParams(**{
-        'Pattern_Path': 'F:/Taco1_Mel_to_Spect.Data/',
+        'Pattern_Path': 'E:/Taco1_Mel_to_Spect.Data/',
         'Metadata_File': 'METADATA.PICKLE',
         'Batch_Size': 128,
         'Pattern_Sorting_by_Length': True,
@@ -184,7 +185,7 @@ Taco1_Mel_to_Spect = tf.contrib.training.HParams(**{
         'Inference_Timing': 1000,
         'Checkpoint_Save_Timing': 1000,
         'Inference': tf.contrib.training.HParams(**{
-            'Path': 'E:/Taco1_Mel_to_Spect',
+            'Path': 'E:/MtS(20190817)',
             'Batch_Size': 128,
             })
         })
@@ -236,5 +237,5 @@ WaveGlow = tf.contrib.training.HParams(**{
 
 Use_Vocoder = 'Taco1_Mel_to_Spect'    #'WaveGlow' or 'Taco1_Mel_to_Spect'
 #Inference_Path = 'E:/MSTTS_SV.NoPre.VCTK.TIMIT'
-Inference_Path = 'E:/MSTTS_SV'
-Checkpoint_Path = 'E:/MSTTS_SV.NoPre.VCTK.TIMIT.L1Use/Checkpoint'
+Inference_Path = 'E:/MSTTS_Test(20190827)' #'E:/MSTTS_SV'
+Checkpoint_Path = 'E:/MSTTS_Checkpoints/Multi_Speaker_TTS_Checkpoint'#'E:/MSTTS_SV/Checkpoint'

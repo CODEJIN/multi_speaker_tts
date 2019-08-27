@@ -35,7 +35,7 @@ def Mel_Generate(path, spectral_Subtract = False, range_Ignore = False):
         path,
         sr = hp.Sound.Sample_Rate
         )[0]
-    sig = librosa.effects.trim(sig, top_db= 15, frame_length= 32, hop_length= 16)[0] * 0.99
+    sig = librosa.effects.trim(sig, top_db= 15)[0] * 0.99
 
     sig_Length = sig.shape[0] / hp.Sound.Sample_Rate * 1000  #ms
     if not range_Ignore and (sig_Length < hp.Train.Use_Wav_Length_Range[0] or sig_Length > hp.Train.Use_Wav_Length_Range[1]):

@@ -19,13 +19,13 @@ class Feeder:
         self.Metadata_Load();
 
         if self.is_Training:
-            self.pre_Pattern_Queue = deque();
-            self.pattern_Queue = deque();
-        
-            pre_Pattern_Generate_Thread = Thread(target=self.Train_Pattern_Generate, args=[True]);
-            pre_Pattern_Generate_Thread.daemon = True;
-            pre_Pattern_Generate_Thread.start();
+            if hp.Train.Use_Pre_in_Main_Train:
+                self.pre_Pattern_Queue = deque();
+                pre_Pattern_Generate_Thread = Thread(target=self.Train_Pattern_Generate, args=[True]);
+                pre_Pattern_Generate_Thread.daemon = True;
+                pre_Pattern_Generate_Thread.start();
 
+            self.pattern_Queue = deque();
             pattern_Generate_Thread = Thread(target=self.Train_Pattern_Generate, args=[False]);
             pattern_Generate_Thread.daemon = True;
             pattern_Generate_Thread.start();
