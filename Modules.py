@@ -237,10 +237,11 @@ class Decoder_Helper(Helper):
         return (next_finished, next_inputs, next_state)
 
     def prenet(self, inputs):
+        new_Tensor = inputs
         for index in range(hp.Decoder.PreNet.Nums):        
             with tf.variable_scope('prenet_{}'.format(index), reuse=variable_scope.AUTO_REUSE):
                 new_Tensor = tf.layers.dense(
-                    inputs= inputs,
+                    inputs= new_Tensor,
                     units= hp.Decoder.PreNet.Size,
                     activation= tf.nn.relu
                     )
